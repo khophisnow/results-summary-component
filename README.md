@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
+- Solution URL: [Solution]([https://your-solution-url.com](https://github.com/khophisnow/results-summary-component.git))
 - Live Site URL: [Live Site](https://your-live-site-url.com)
 
 ### Built with
