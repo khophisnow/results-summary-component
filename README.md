@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution]([https://your-solution-url.com](https://github.com/khophisnow/results-summary-component.git))
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site]([https://your-live-site-url.com](https://khophisnow.github.io/results-summary-component/))
 
 ### Built with
 
