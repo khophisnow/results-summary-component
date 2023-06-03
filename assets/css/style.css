@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 570px) {
+    body{
+        background-color: hsl(221, 100%, 96%);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    main div.card{
+    width: 100%;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 30px;
+    box-shadow: 0 8px 16px 0 hsl(241, 100%, 89%), 0 12px 40px 0 hsl(241, 100%, 89%);
+}
+main div.card div.results{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    padding: 30px 20px;
+    width: 275px;
+    border-radius: 30px;
+    flex: 50%;
+}
+}
+@media (max-width: 375px) {
+    body{
+        width: 100%;
+        height: 100vh;
+        font-size: 18px;
+        font-family: 'Hanken Grotesk', sans-serif;
+    }
+    main div.card {
+      width: 100%;
+      height: auto;
+      background-color: hsl(0, 0%, 100%);
+      display: flex;
+      flex-direction: column;
+      flex: 100%;
+      border-radius: 0;
+    }
+    main div.card div.results{
+        background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+        color: hsl(241, 100%, 89%);
+        text-align: center;
+        padding: 30px 20px;
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        flex: 50%;
+    }
+  }
+  @media (min-width: 375px) and  (max-width: 570px){
+     main div.card div.results{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    padding: 30px 20px;
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+    flex: 50%;
+}
+  }
+ 
+main div.card div.results .result-title{
+    margin-bottom: 30px;
+}
+main div.card div.results .result-body{
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+main div.card div.results .result-body span{
+    color: hsl(0, 0%, 100%);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+main div.card div.results .text{
+    margin-top: 30px;
+}
+main div.card div.results .text .text-head{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+main div.card div.summary{
+    padding: 30px 20px;
+    flex: 50%;
+}
+main div.card div.summary div.summary-title{
+    color:  hsl(224, 30%, 27%);
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+main div.card div.summary div.summary-body{
+    margin: 10px auto;
+}
+main div.card div.summary div.summary-body div.item1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+main div.card div.summary div.summary-body div.item1 strong{
+    margin-left: -2px;
+    color: hsl(0, 100%, 67%);
+}
+main div.card div.summary div.summary-body div.item1 span,div.item2 span,div.item3 span,div.item4 span{
+    margin-left: 60px;
+    color: hsl(224, 30%, 27%);
+}
+main div.card div.summary div.summary-body div.item1 p,div.item2 p,div.item3 p,div.item4 p{
+    color:  hsla(224, 30%, 27%, 0.417);
+}
+
+main div.card div.summary div.summary-body div.item2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color:  hsla(39, 100%, 56%, 0.1);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+main div.card div.summary div.summary-body div.item2 strong{
+    margin-left: -2px;
+    color:  hsl(39, 100%, 56%);
+}
+main div.card div.summary div.summary-body div.item2 span{
+    margin-left: 60px;
+}
+
+main div.card div.summary div.summary-body div.item3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color:  hsla(166, 100%, 37%, 0.1);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+main div.card div.summary div.summary-body div.item3 strong{
+    margin-left: -2px;
+    color:  hsl(166, 100%, 37%);
+}
+main div.card div.summary div.summary-body div.item3 span{
+    margin-left: 75px;
+}
+main div.card div.summary div.summary-body div.item4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    background-color:  hsla(234, 85%, 45%, 0.1);
+    margin: 10px 0;
+    border-radius: 10px;
+}
+main div.card div.summary div.summary-body div.item4 strong{
+    margin-left: -2px;
+    color:  hsl(234, 85%, 45%);
+}
+main div.card div.summary div.summary-body div.item4 span{
+    margin-left: 75px;
+}
+
+main div.card div.summary div.summary-footer button.btn{
+    margin: 25px auto;
+    border-radius: 100vw;
+    border: none;
+    background-color:  hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+main div.card div.summary div.summary-footer button.btn:hover{
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    cursor: pointer;
+}
+
+@media (min-width: 570px) {
+    footer div.attribution{
+        font-size: 11px;
+        text-align: center; 
+        position: absolute;
+        margin-top: 290px;
+        margin-left: -480px;
+        
+    }
+    footer div.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+@media (max-width: 375px) {
+    footer div.attribution{
+        font-size: 11px;
+        text-align: center; 
+        position: absolute;
+        margin: 0 auto;
+        
+    }
+    footer div.attribution a { 
+        color: hsl(228, 45%, 44%); 
+    }
+}
+
+
